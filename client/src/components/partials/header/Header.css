@@ -1,0 +1,57 @@
+.header a {
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4em;
+  background: #fff;
+  position: relative;
+  box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.header .left {
+  margin-left: 20px;
+}
+
+.header .logo img {
+  height: 50px;
+  width: 175px;
+}
+
+.header .right {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.header .right i {
+  margin-right: 10px;
+  color: #000;
+}
+
+.header .right form {
+  display: flex;
+  align-items: center;
+}
+
+.header .right form .form-control {
+  width: 150px;
+}
+
+.header .right form button {
+  padding: 0;
+  height: 25px;
+  border: none;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}

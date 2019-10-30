@@ -1,0 +1,39 @@
+.account-settings-wrapper {
+  width: 100%;
+}
+
+.accountSettings {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.accountSettings form {
+  margin-top: 50px;
+}
+
+.accountSettings h2 {
+  font-size: 2.3em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.accountSettings label {
+  font-size: 1.7em;
+}
+
+.accountSettings .form-control {
+  font-size: 2em;
+  padding: 5px;
+}
+
+.accountSettings .form-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.accountSettings button {
+  font-size: 1.5em;
+  margin: 8px;
+}

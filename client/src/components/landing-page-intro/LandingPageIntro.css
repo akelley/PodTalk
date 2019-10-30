@@ -1,0 +1,51 @@
+.landingIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*margin-top: 150px;*/
+  background: #fff;
+  padding: 60px;
+  border-radius: 30px;
+}
+
+.landingIntro .logo img {
+  height: 100px;
+  width: 325px;
+}
+
+.landingIntro h3 {
+  font-size: 2em;
+}
+
+.landingIntro label {
+  font-size: 1.4em;
+}
+
+.landingIntro button {
+  margin-top: 0;
+  font-size: 1.5em;
+  height: 40px;
+}
+
+.landingIntro form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingIntro form button {
+  font-size: 1.8em;
+  width: 318px;
+  padding: 10px 0;
+  background-color: #9ACD32;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.landingIntro form .form-control {
+  width: 300px;
+  font-size: 1.8em;
+  padding: 8px;
+  margin-right: 0;
+}
