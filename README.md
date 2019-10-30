@@ -1,9 +1,10 @@
 # Podtalk
  
-Podtalk is a social podcast sharing application that creates a community where people can talk about, listen to, and keep up to date with their favorite podcasts.  Users can build a profile that displays their saved favorite podcasts and participate in conversations about each week's episode as it is released.
+Podtalk is a podcast-sharing, social networking application where people can talk about, listen to and keep up to date with their favorite podcasts. Users can build a profile that displays their user info, commments, favorite podcasts and episodes.
 
-This app utilizes the iTunes search api to retrieve the RSS feed for each podcast and then converts that feed into JSON.  The RSS data is used to build a page for each individual podcast episode that includes the description, audio, and a space for conversation.
+This app utilizes the iTunes Search API and converts each podcast's RSS feed into JSON. The JSON data is then used to build pages for individual podcasts and podcast episodes and display their descriptions, release dates, MP3s and conversation threads.
 
-React front-end, Express, Node.js, MySQL
+Frontend: React.js, Express.js, Node.js
+Backend: MySQL
 
 https://podtalk.herokuapp.com
